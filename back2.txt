@@ -1,0 +1,8 @@
+This book describes the experiences of building the open-source Sakai teaching and learning environment software.  
+
+Sakai was founded by the University of Michigan, Indiana University, Stanford University, Massachusetts Institute of Technology, the Open Knowledge Initiative(OKI), and the uPortal Project.  The Sakai project was funded by the  Andrew W. Mellon Foundation, The William and Flora Hewlett Foundation, and over 100 Sakai partner schools and companies for over five million dollars over a two year period.  
+
+The project was very ambitious with an almost impossible schedule for delivery.  Almost nothing in the project went according to the plans and yet today, the Sakai software is in use at nearly 300 schools worldwide with three million daily users and a ten percent market share of research universities.  Sakai competes with commercial products like Blackboard and Desire2Learn as well as other open source products like Moodle, OLAT and ATutor.
+
+This is the story of the successes and failures and recoveries along the way as well as the fun and stress as the project went forward from an insider's perspective.
+

@@ -1,0 +1,11 @@
+Errata for - 0.7.2
+
+p31, Chamonix is actually in France.  The actual name of the Glacier we visited is "Mer de Glace"
+
+p74, voila is misspelled
+
+p143, Remove the "when"
+
+p157, paragraph about Mandy's return home. Chage "the Amsterdam" into "the Amsterdam airport".
+
+Thanks to: Jean-Francois Leveque, Martin Ramsay

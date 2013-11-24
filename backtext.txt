@@ -1,0 +1,37 @@
+This book describes the experiences of building the
+open-source Sakai teaching and learning environment 
+from the inside.  
+
+Sakai is an ambitious open source project 
+founded by the University of Michigan, 
+Indiana University, Stanford University,
+Massachusetts Institute of Technology, the
+Open Knowledge Initiative(OKI), and the uPortal
+Project.  The Sakai project was funded by the 
+Andrew W. Mellon Foundation, The William and Flora
+Hewlett Foundation, and over 100 Sakai partner
+schools and companies for over five million dollars
+over a two year period.  The six founding partners were quickly
+joined by the University of California Berkeley,
+Foothill College, the University of Lleida, Cambridge 
+University, and many others.
+
+The project was very ambitious with an almost impossible
+schedule for delivery.  Almost nothing in the project
+went according to the plans and yet today, the Sakai
+software is in use at nearly 300 schools world wide
+with three million daily users and a ten percent 
+market share of research universities in 2010.
+
+This is the story of the successes and failures and
+recoveries along the way as well as the joy and sadness
+as the project went forward with a decidedly 
+insider perspective.
+Charles Severance was the chief architect
+of the Sakai proejct during 2004 and 2005 and 
+was the executive director of the Sakai Foundation
+during 2006 and 2007.  He has been on the board of 
+directors of the Sakai Foundation since 2010
+continues contribute to the Sakai software effort.
+
+Copyright 2011, All Rights Reserved, Charles Severance
