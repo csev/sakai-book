@@ -4,8 +4,8 @@ rm -rf html
 mkdir html
 rm html-rise.tex
 sed 's"\\slash "/"g' < rise.tex | sed 's"\\- "-"g' | sed "s/\`\`/\"/g" | sed "s/\'\'/\"/g" | sed s/---/--/g > html-rise.tex
-hevea -O -e latexonly /usr/local/lib/hevea/html/png.hva html-rise.tex
-hevea -O -e latexonly /usr/local/lib/hevea/html/png.hva html-rise.tex
+hevea -O -e latexonly png.hva html-rise.tex
+hevea -O -e latexonly png.hva html-rise.tex
 # the following line is a kludge to prevent imagen from seeing
 # the definitions in latexonly
 # grep -v latexonly book.image.tex > a; mv a book.image.tex
@@ -13,3 +13,7 @@ hevea -O -e latexonly /usr/local/lib/hevea/html/png.hva html-rise.tex
 # hacha book.html
 mv html-rise.html rise.html
 rm html-rise*
+
+echo " "
+echo "Patching the HTML ..."
+python fixhtml.py
