@@ -4,8 +4,8 @@ rm -rf html
 mkdir html
 rm html-rise.tex
 sed 's"\\slash "/"g' < rise.tex | sed 's"\\- "-"g' | sed "s/\`\`/\"/g" | sed "s/\'\'/\"/g" | sed s/---/--/g > html-rise.tex
-hevea -O -e latexonly png.hva html-rise.tex
-hevea -O -e latexonly png.hva html-rise.tex
+hevea -O -e htmlonly png.hva html-rise.tex
+hevea -O -e htmlonly png.hva html-rise.tex
 # the following line is a kludge to prevent imagen from seeing
 # the definitions in latexonly
 # grep -v latexonly book.image.tex > a; mv a book.image.tex
