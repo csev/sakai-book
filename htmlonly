@@ -3,6 +3,7 @@
 
 \newcommand{\beforefig}{}
 \newcommand{\afterfig}{}
+\newcommand{\endsf}{}
 
 \newcommand{\beforeverb}{\blue \large}
 \newcommand{\afterverb}{\black \normalsize}

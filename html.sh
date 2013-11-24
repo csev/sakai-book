@@ -1,19 +1,20 @@
 # This needs netpbm and hevea from Darwin Ports
 
 rm -rf html
-mkdir html
 rm html-rise.tex
 sed 's"\\slash "/"g' < rise.tex | sed 's"\\- "-"g' | sed "s/\`\`/\"/g" | sed "s/\'\'/\"/g" | sed s/---/--/g > html-rise.tex
-hevea -O -e htmlonly png.hva html-rise.tex
-hevea -O -e htmlonly png.hva html-rise.tex
-# the following line is a kludge to prevent imagen from seeing
-# the definitions in latexonly
-# grep -v latexonly book.image.tex > a; mv a book.image.tex
-# imagen -png book
-# hacha book.html
-mv html-rise.html rise.html
+
+# run twice to get references
+hevea -O -e latexonly htmlonly png.hva html-rise.tex
+hevea -O -e latexonly htmlonly png.hva html-rise.tex
+
+# Tweak output HTML for glitches
+sed 's/<DT><FONT SIZE=5>/<dt>/g' < html-rise.html | sed 's"</A></FONT><DD>"</a><dd>"g' | sed 's/^3$//' | sed 's/COLOR=purple/face="sans-serif"/g' > rise.html
 rm html-rise*
 
 echo " "
-echo "Patching the HTML ..."
+echo "Running BeautifulSoup on the HTML ..."
 python fixhtml.py
+
+echo This is non-fatal apparently: Command not found: endsf
+
