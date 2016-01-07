@@ -1,0 +1,82 @@
+<html>
+	<head>
+		<title>T-Mobile</title> 
+		<!--
+		============
+		If you can read this text, but much of the message below seems unreadable, you might be using an e-mail program that does not work with HTML.
+		
+		============-->
+		<style type="text/css">
+		<!--
+		
+		.footer {
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 11px;
+			color: #555555;
+			text-decoration: none;
+		}
+		.normal {
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 10px;
+			color: #555555;
+			text-decoration: none;
+		}
+		
+		-->
+		</style>
+	</head>
+	<body marginwidth="0" marginheight="0" leftmargin="0" topmargin="0" bgcolor="#ffffff">
+		<table border="0" width="600" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="20" rowspan="8"><img src="cid:spacer.gif" width="20" height="20"></td>
+				<td width="600" colspan="2"><img src="cid:spacer.gif" width="600" height="20"></td>
+				<td width="20" rowspan="8"><img src="cid:spacer.gif" width="20" height="20"></td>
+			</tr>
+			<tr>
+				<td width="600" colspan="2"><img src="cid:dottedLine_600.gif" width="600"></td>
+			</tr>
+			<tr>
+				<td width="370">
+					<table border="0" width="350" cellspacing="0" cellpadding="0">
+						<tr>
+							<td width="350" colspan="4"><img src="cid:spacer.gif" width="350" height="15"></td>
+						</tr>
+
+
+<tr>
+							<td width="350" colspan="4"><img src="cid:spacer.gif" width="350" height="15"></td>
+</tr>
+<tr><td width="350" colspan=
+"4"><span class="normal">
+
+<img src="cid:Picture2.jpg" alt="Picture2.jpg"><br>
+</span></td></tr>
+<tr>
+							<td width="350" colspan="4"><img src="cid:spacer.gif" width="350" height="15"></td>
+						</tr>
+						<tr>
+							<td width="350" colspan="4"><img src="cid:dottedLine_350.gif" width="350"></td>
+						</tr>
+						
+
+						<tr>
+							<td width="350" colspan="4"><img src="cid:spacer.gif" width="350" height="30"></td>
+						</tr>
+					</table>
+				</td>
+				<td width="240" bgcolor="#f2f2f2">&nbsp;</td>
+			</tr>
+			<tr>
+				<td width="600" colspan="2"><img src="cid:masthead.jpg" width="600" height="45"></td>
+			</tr>
+			<tr>
+				<td width="600" colspan="2"><img src="cid:spacer.gif" width="600" height="10"></td>
+			</tr>
+			<tr>
+				<td width="600" colspan="2"><span class="footer">This message was sent from a T-Mobile wireless phone.</span></td>
+			</tr>
+			<tr>
+				<td width="600" colspan="2"><img src="cid:spacer.gif" width="600" height="40"></td>
+			</tr>
+		</table>
+<!-- SMIL to HTML provided by Ericsson Systems Integration North America --></body></html>
